@@ -15,7 +15,7 @@ public class Throwing {
     }
 
     public int score() {
-        if (dice.contains(new Integer(1)))
+        if (dice.contains(1))
             return 50;
         else
             return 0;
