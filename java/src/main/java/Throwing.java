@@ -18,7 +18,7 @@ public class Throwing {
     public int score() {
         int ones = Collections.frequency(dice, 1);
         int score = 0;
-        score += ones * 50;
+        score += ones * 100;
         return score;
     }
 }
