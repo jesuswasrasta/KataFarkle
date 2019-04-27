@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Throwing {
@@ -15,9 +16,9 @@ public class Throwing {
     }
 
     public int score() {
-        if (dice.contains(1))
-            return 50;
-        else
-            return 0;
+        int ones = Collections.frequency(dice, 1);
+        int score = 0;
+        score += ones * 50;
+        return score;
     }
 }
