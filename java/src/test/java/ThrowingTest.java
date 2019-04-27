@@ -44,4 +44,14 @@ public class ThrowingTest {
 
         assertEquals(expectedScore, actualScore);
     }
+
+    @Test
+    public void throwing_554466_ShouldScore_100() {
+        int expectedScore = 100;
+
+        Throwing throwing = new Throwing(5,5,4,4,6,6);
+        int actualScore = throwing.score();
+
+        assertEquals(expectedScore, actualScore);
+    }
 }
