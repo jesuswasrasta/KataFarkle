@@ -20,6 +20,11 @@ public class Throwing {
         int fives = Collections.frequency(dice, 5);
         int score = 0;
 
+        if (ones == 3){
+            score += 1 * 1000;
+            ones-=3;
+        }
+
         if (fives == 3){
             score += 5 * 100;
             fives-=3;
