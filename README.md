@@ -2,7 +2,9 @@
 
 In the following kata we will play a variation of the classical [Farkle Dice Game](https://en.wikipedia.org/wiki/Farkle).  
 
-In this version I put together a simplified set of rules, just to practicing Object Calisthenics.  
+In this version I put together a simplified set of rules, just to practicing [Object Calisthenics](https://williamdurand.fr/2013/06/03/object-calisthenics/).  
+
+[Here](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano) and [here](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018) the slides I made for a couple of workshop I facilitated at [TDD Milano](https://www.meetup.com/it-IT/TDD-Milano/events/247937838/) and [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/).
 
 ## Rules
 
